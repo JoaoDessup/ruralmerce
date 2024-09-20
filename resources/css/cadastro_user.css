@@ -1,0 +1,11 @@
+.trocarAcesso{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(57, 89, 249);
+    margin: 20px 0;
+    transition: 0.5s;
+}
+
+.trocarAcesso:hover{
+    color: rgba(57, 89, 249, 0.7);
+}

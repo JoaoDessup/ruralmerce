@@ -1,0 +1,12 @@
+.forgotPassword {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(57, 89, 249);
+    transition: 0.5s;
+}
+
+.forgotPassword:hover {
+    color: rgba(57, 89, 249, 0.7)
+}
