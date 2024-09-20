@@ -21,3 +21,8 @@ router.get('/cadastro/cliente', async ({ view }) => {
     return html
 })
 
+router.get('/carrinho', async ({ view }) => {
+    const html = await view.render('pages/carrinho')
+    return html
+})
+

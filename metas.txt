@@ -1,0 +1,4 @@
+1 - Conectar o SQLite
+2 - Lógica de criação de Usuários
+3 - Lógica de login de Usuários
+4 - Lógica de Autenticação da Home (Só entrar se tiver logado, se não, joga para a página de Login automaticamente)

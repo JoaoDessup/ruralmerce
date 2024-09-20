@@ -7,3 +7,8 @@
   user-select: none;
   font-family: "Poppins", sans-serif;
 }
+
+.homeContainer {
+  position: relative;
+  top: 50px;
+}
