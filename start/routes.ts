@@ -22,7 +22,7 @@ router.get('/cadastro/cliente', async ({ view }) => {
 })
 
 router.get('/carrinho', async ({ view }) => {
-    const html = await view.render('pages/carrinho')
+    const html = await view.render('pages/carrinho/carrinho')
     return html
 })
 

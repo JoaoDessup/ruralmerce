@@ -1,0 +1,33 @@
+.destaquesContainer {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0 20%;
+}
+
+.destaquesContainer h2{
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.containerCard {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 4px 2px #00000030;
+    border-radius: 5px;
+    height: 300px;
+}
+
+.cards img {
+    width: 200px;
+}
+
