@@ -1,23 +1,80 @@
-<section class="destaquesContainer">
-    <h2>DESTAQUES</h2>
-    <div class="containerCard">
-        <div class="cards">
-            <img src="{{asset('resources/img/destaques/bermudaCaqui.jpg')}}"/>
-        </div>
-        <div class="cards">
-            <img src="{{asset('resources/img/destaques/calcaJeans.jpg')}}"/>
-        </div>
-        <div class="cards">
-            <img src="{{asset('resources/img/destaques/camisaSorriso.jpg')}}"/>
-        </div>
-        <div class="cards">
-            <img src="{{asset('resources/img/destaques/jaquetaJeans.jpg')}}"/>
-        </div>
-        <div class="cards">
-            <img src="{{asset('resources/img/destaques/jaquetaCouro.jpg')}}"/>
-        </div>
-        <div class="cards">
-            <img src="{{asset('resources/img/destaques/bone.jpg')}}"/>
+<section class="destaquesSection">
+    <h2 class="titleDestaques"> DESTAQUES</h2>
+    <div class="destaquesContainer">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="gridCards">
+                        <div class="cardDestaque">
+                            <div class="img">
+                                <img src="{{asset('resources/img/roupas/mulher-2.png')}}">
+                            </div>
+                            <div class="conteudo">
+                                <h6>Cropped preto frisado</h6>
+                                <p>R$60,00</p>
+                            </div>
+                        </div>
+                        <div class="cardDestaque">
+                            <div class="img">
+                                <img src="{{asset('resources/img/roupas/homem-2.png')}}">
+                            </div>
+                            <div class="conteudo">
+                                <h6>Casaco branco com capuz</h6>
+                                <p>R$90,00</p>
+                            </div>
+                        </div>
+                        <div class="cardDestaque">
+                            <div class="img">
+                                <img src="{{asset('resources/img/roupas/homem-3.png')}}">
+                            </div>
+                            <div class="conteudo">
+                                <h6>Camisa verde oversized</h6>
+                                <p>R$60,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="gridCards">
+                        <div class="cardDestaque">
+                            <div class="img">
+                                <img src="{{asset('resources/img/roupas/mulher-6.png')}}">
+                            </div>
+                            <div class="conteudo">
+                                <h6>Vestido longo verde</h6>
+                                <p>R$140,00</p>
+                            </div>
+                        </div>
+                        <div class="cardDestaque">
+                            <div class="img">
+                                <img src="{{asset('resources/img/roupas/criaça-2.png')}}">
+                            </div>
+                            <div class="conteudo">
+                                <h6>Blusa de manga azul infantil</h6>
+                                <p>R$89,00</p>
+                            </div>
+                        </div>
+                        <div class="cardDestaque">
+                            <div class="img">
+                                <img src="{{asset('resources/img/roupas/criança-5.png')}}">
+                            </div>
+                            <div class="conteudo">
+                                <h6>Conjunto bailarina infantil</h6>
+                                <p>R$160,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
 </section>

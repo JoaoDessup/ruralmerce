@@ -1,4 +1,8 @@
-.navbar {
+a {
+    text-decoration: none !important;
+}
+
+.navbarContainer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -26,6 +30,7 @@
     gap: 35px;
     transition: 0.8s;
     font-size: 14px;
+    margin: 0;
 }
 
 .item:hover{
@@ -76,6 +81,7 @@
     position: absolute;
     left: 40%;
     transition: all 1s ease;
+    margin: 0;
 }
 
 .btnCarrinho:hover p{

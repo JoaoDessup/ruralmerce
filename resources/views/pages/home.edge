@@ -7,7 +7,7 @@
   <title>Home</title>
 
   @vite(['resources/css/pages/home.css', 'resources/css/partials/navbar.css', 'resources/css/partials/footer.css',
-  'resources/css/partials/bannerHome.css', 'resources/css/partials/destaques.css', 'resources/js/app.js'])
+  'resources/css/partials/bannerHome.css', 'resources/css/partials/destaques.css', 'resources/css/partials/categorias.css', 'resources/js/app.js'])
 </head>
 
 <body>
@@ -15,6 +15,7 @@
   <div class="homeContainer">
     @include('partials/homepage/bannerHome')
     @include('partials/homepage/destaques')
+    @include('partials/homepage/categorias')
     @include('partials/footer')
   </div>
 </body>

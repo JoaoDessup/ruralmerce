@@ -1,33 +1,85 @@
-.destaquesContainer {
-    margin-top: 2rem;
+* {
+    box-sizing: border-box;
+    user-select: none;
+    margin: 0 !important;
+}
+
+
+.destaquesSection {
     width: 100%;
-    padding: 0 20%;
-}
-
-.destaquesContainer h2{
-    font-size: 2rem;
-    text-align: center;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-.containerCard {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.cards {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid black; */
-    box-shadow: 0px 0px 4px 2px #00000030;
-    border-radius: 5px;
-    height: 300px;
+    margin-bottom: 20px;
+    flex-direction: column;
 }
 
-.cards img {
-    width: 200px;
+.titleDestaques {
+    margin-bottom: 20px !important;
 }
 
+.destaquesContainer {
+    width: 70%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    background-color: gray !important;
+    width: 50px !important;
+    height: 50px;
+    top: 50% !important;
+    transform: translate(0, -50%);
+    border-radius: 50%;
+}
+
+.carousel-control-next {
+    right: -5% !important;
+}
+
+.carousel-control-prev {
+    left: -5% !important;
+}
+
+.gridCards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.cardDestaque {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img {
+    /* height: 645px; */
+    background-color: rgb(216, 216, 216);
+}
+
+.img img{
+    width: 100%;
+}
+
+.conteudo {
+    width: 100%;
+    height: 75px;
+    flex: 1;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo h6{
+    margin-bottom: 20px !important;
+}
